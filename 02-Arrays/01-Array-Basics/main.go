@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/yangqinjiang/play-with-data-structures/02-Arrays/03-Add-Element-in-Array"
+)
 
 //切片(数组的基本使用)
 func main() {
@@ -21,6 +24,7 @@ func main() {
 	for i:=0;i< len(scores);i++  {
 		fmt.Println(scores[i])
 	}
+
 
 
 }
