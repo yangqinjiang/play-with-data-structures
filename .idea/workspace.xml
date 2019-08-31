@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ce9ec82-123e-472c-abf9-8987c9fbdd15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02-Arrays/07-Dynamic-Array/Array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Arrays/07-Dynamic-Array/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Arrays/09-Amortized-Time-Complexity/Array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Arrays/09-Amortized-Time-Complexity/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
