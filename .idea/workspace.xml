@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ce9ec82-123e-472c-abf9-8987c9fbdd15" name="Default Changelist" comment="" />
+    <list default="true" id="6ce9ec82-123e-472c-abf9-8987c9fbdd15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/02-Arrays/07-Dynamic-Array/Array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/07-Dynamic-Array/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/09-Amortized-Time-Complexity/Array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/09-Amortized-Time-Complexity/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +37,22 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-Arrays/05-Contain-Find-and-Remove/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-Arrays/09-Amortized-Time-Complexity" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/main" />
-      <recent name="$PROJECT_DIR$/02-Arrays/AddElementInArray/main" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/02-Arrays/09-Amortized-Time-Complexity" />
+      <recent name="$PROJECT_DIR$/02-Arrays/07-Dynamic-Array" />
       <recent name="$PROJECT_DIR$/02-Arrays/05-Contain-Find-and-Remove/main" />
       <recent name="$PROJECT_DIR$/02-Arrays/05-Contain-Find-and-Remove" />
       <recent name="$PROJECT_DIR$/02-Arrays" />
-      <recent name="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array" />
-      <recent name="$PROJECT_DIR$/02-Arrays/03-Add-Element-in-Array" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/main" />
+      <recent name="$PROJECT_DIR$/02-Arrays/AddElementInArray/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -61,16 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/05-Contain-Find-and-Remove/main">
-    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/02-Create-Our-Own-Array/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="play-with-data-structures" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/main/main.go" />
-      <package value="github.com/yangqinjiang/play-with-data-structures/02-Arrays/02-Create-Our-Own-Array/main" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/09-Amortized-Time-Complexity/main">
     <configuration name="go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/03-Add-Element-in-Array/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="play-with-data-structures" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,20 +95,31 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/07-Dynamic-Array/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="play-with-data-structures" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/main.go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/02-Arrays/07-Dynamic-Array/main/main.go" />
+      <package value="github.com/yangqinjiang/play-with-data-structures/02-Arrays/07-Dynamic-Array/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/09-Amortized-Time-Complexity/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="play-with-data-structures" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/02-Arrays/09-Amortized-Time-Complexity/main/main.go" />
+      <package value="github.com/yangqinjiang/play-with-data-structures/02-Arrays/09-Amortized-Time-Complexity/main" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/09-Amortized-Time-Complexity/main" />
+        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/07-Dynamic-Array/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/05-Contain-Find-and-Remove/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/04-Query-and-Update-Element/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/03-Add-Element-in-Array/main" />
-        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/02-Create-Our-Own-Array/main" />
-        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
