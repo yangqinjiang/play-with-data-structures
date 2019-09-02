@@ -1,4 +1,4 @@
-package _9_Amortized_Time_Complexity
+package _2_Array_Stack
 
 import (
 	"fmt"
@@ -78,6 +78,12 @@ func (this *Array)Get(index int) int  {
 	return  this.data[index]
 }
 
+func (this *Array)GetLast() int {
+	return this.Get(this.size - 1)
+}
+func (this *Array)GetFirst() int {
+	return this.Get(0)
+}
 //修改index索引位置的元素为e
 func (this *Array)Set(index ,e int) {
 	if index <0 || index >= this.size{
