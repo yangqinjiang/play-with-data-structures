@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6ce9ec82-123e-472c-abf9-8987c9fbdd15" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-Arrays/09-Amortized-Time-Complexity/Array.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-Arrays/09-Amortized-Time-Complexity/Array.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,16 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/02-Array-Stack/main">
-    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/04-Query-and-Update-Element/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="play-with-data-structures" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/02-Arrays/04-Query-and-Update-Element/main/main.go" />
-      <package value="github.com/yangqinjiang/play-with-data-structures/02-Arrays/04-Query-and-Update-Element/main" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/main">
     <configuration name="go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/05-Contain-Find-and-Remove/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="play-with-data-structures" />
       <working_directory value="$PROJECT_DIR$" />
@@ -110,13 +100,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="play-with-data-structures" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/main/main.go" />
+      <package value="github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/02-Array-Stack/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/09-Amortized-Time-Complexity/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/07-Dynamic-Array/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/05-Contain-Find-and-Remove/main" />
-        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/04-Query-and-Update-Element/main" />
       </list>
     </recent_temporary>
   </component>
