@@ -28,24 +28,24 @@ func levelOrder(root *TreeNode) [][]int {
 	if root == nil {
 		return res
 	}
-	//双向队列
+	//双向队列,模拟fifo队列
 	queue := list.New()
-	//头部插入
+	// [ 头部 ] 插入
 	queue.PushFront(root)
 	//进行广度搜索
 	for queue.Len() > 0  {
 		var currentLevel []int
 		listLength := queue.Len()
 		for i := 0; i < listLength; i++  {
-			//尾部移除,转换成 TreeNode类型的对象
+			//[ 尾部 ] 移除,转换成 TreeNode类型的对象
 			node := queue.Remove(queue.Back()).(*TreeNode)
 			//同一层次,增加node.val
 			currentLevel = append(currentLevel, node.Val)
 			if node.Left != nil {
-				queue.PushFront(node.Left)
+				queue.PushFront(node.Left)// [ 头部 ] 插入
 			}
 			if node.Right != nil {
-				queue.PushFront(node.Right)
+				queue.PushFront(node.Right)// [ 头部 ] 插入
 			}
 		}
 		res = append(res, currentLevel)

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ce9ec82-123e-472c-abf9-8987c9fbdd15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/04-More-about-Leetcode/Array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/04-More-about-Leetcode/ArrayStack.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/04-More-about-Leetcode/Stack.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/04-More-about-Leetcode/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/Array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/ArrayQueue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/Queue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/Solution.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/Solution.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/Solution.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/Solution.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
