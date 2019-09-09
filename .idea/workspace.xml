@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ce9ec82-123e-472c-abf9-8987c9fbdd15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/Solution.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/Solution.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/Solution.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/Solution.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/05-Array-Queue/main">
+  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/main">
     <configuration name="go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/09-Amortized-Time-Complexity/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="play-with-data-structures" />
       <working_directory value="$PROJECT_DIR$" />
@@ -111,9 +112,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/05-Array-Queue/main" />
-        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/04-More-about-Leetcode/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/main" />
+        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/04-More-about-Leetcode/main" />
+        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/05-Array-Queue/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/02-Array-Stack/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/02-Arrays/09-Amortized-Time-Complexity/main" />
       </list>
