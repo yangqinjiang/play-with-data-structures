@@ -5,12 +5,6 @@ import (
 	"strings"
 )
 
-
-import (
-	"fmt"
-	"strings"
-)
-
 type Array struct {
 	data []int
 	size int
