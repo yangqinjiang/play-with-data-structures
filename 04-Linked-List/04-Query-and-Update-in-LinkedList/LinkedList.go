@@ -1,6 +1,10 @@
-package _3_DummyHead_in_LinkedList
+package _4_Query_and_Update_Element
 
-import "strconv"
+import (
+	"fmt"
+	"strconv"
+	"strings"
+)
 
 type Node struct {
 	E int
@@ -70,7 +74,7 @@ func (this *LinkedList)Add(index int,e int)  {
 
 		//查找将要插入元素之前的元素prev
 		prev := this.dummyHead
-		for i:=0;i<index; i++ {
+		for i:=0;i<index ; i++ {
 			prev = prev.Next
 		}
 
@@ -87,4 +91,63 @@ func (this *LinkedList)Add(index int,e int)  {
 // 在链表末尾添加新的元素e
 func (this *LinkedList)AddLast(e int)  {
 	this.Add(this.size,e)
+}
+// 获得链表的第index(0-based)个位置的元素
+// 在链表中不是一个常用的操作，练习用：）
+
+func (this *LinkedList)Get(index int) int {
+	if index <0 || index >= this.size{
+		panic("Get failed. Illegal index.")
+	}
+	cur := this.dummyHead.Next
+	for i:=0;i<index ;i++  {
+		cur = cur.Next
+	}
+	return cur.E
+}
+// 获得链表的第一个元素
+func (this *LinkedList)GetFirst() int  {
+	return this.Get(0)
+}
+//// 获得链表的最后一个元素
+func (this *LinkedList)GetLast() int  {
+	return this.Get(this.size - 1)
+}
+
+// 修改链表的第index(0-based)个位置的元素为e
+// 在链表中不是一个常用的操作，练习用：）
+
+func (this *LinkedList)Set(index int,e int)  {
+	if index <0 || index >= this.size{
+		panic("Get failed. Illegal index.")
+	}
+
+	cur := this.dummyHead.Next
+	//查找index位置的元素
+	for i:=0;i<index ;i++  {
+		cur = cur.Next
+	}
+	cur.E = e
+}
+
+// 查找链表中是否有元素e
+func (this *LinkedList)Contains(e int) bool  {
+	cur := this.dummyHead.Next
+	for cur != nil {
+		if cur.E == e{
+			return true
+		}
+		cur = cur.Next
+	}
+	return false
+}
+
+func (this *LinkedList)ToString() string  {
+	var sb strings.Builder
+	for cur := this.dummyHead.Next;cur != nil;cur = cur.Next{
+		fmt.Fprintf(&sb,"%s->",cur.ToString())
+	}
+	sb.WriteString("NULL")
+
+	return  sb.String()
 }
