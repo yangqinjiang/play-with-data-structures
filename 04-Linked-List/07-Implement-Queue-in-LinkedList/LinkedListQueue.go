@@ -32,8 +32,8 @@ func NewNode(e int,next *Node) *Node {
 }
 
 type LinkedListQueue struct {
-	head *Node
-	tail *Node
+	head *Node //头指针
+	tail *Node //尾指针
 	size int
 }
 
@@ -51,6 +51,7 @@ func (this *LinkedListQueue)GetSize() int  {
 func (this *LinkedListQueue)IsEmpty() bool  {
 	return this.size == 0
 }
+//入队,注意head与tail的处理区别
 func (this *LinkedListQueue)Enqueue(e int)   {
 	if nil == this.tail{
 		this.tail = NewNode2(e)
@@ -61,6 +62,7 @@ func (this *LinkedListQueue)Enqueue(e int)   {
 	}
 	this.size ++
 }
+//出队,注意head,tail的处理
 func (this *LinkedListQueue)Dequeue() int  {
 	if this.IsEmpty(){
 		panic("Cannot dequeue from an empty queue.")
@@ -68,7 +70,7 @@ func (this *LinkedListQueue)Dequeue() int  {
 	retNode := this.head
 	this.head = this.head.Next
 	retNode.Next = nil
-	if nil == this.head{
+	if nil == this.head{ //如果head为空,则tail也应该为nil
 		this.tail = nil
 	}
 	this.size --
