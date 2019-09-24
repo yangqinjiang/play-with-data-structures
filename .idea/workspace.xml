@@ -39,16 +39,17 @@
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04-Linked-List/01-Linked-List-Basics" />
+      <recent name="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/main" />
+      <recent name="$PROJECT_DIR$/02-Arrays/AddElementInArray/main" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/03-Stacks-and-Queues" />
       <recent name="$PROJECT_DIR$/03-Stacks-and-Queues/07-Implementation-of-Loop-Queue" />
       <recent name="$PROJECT_DIR$/03-Stacks-and-Queues/06-Loop-Queue" />
       <recent name="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue" />
       <recent name="$PROJECT_DIR$/03-Stacks-and-Queues/04-More-about-Leetcode" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/main" />
-      <recent name="$PROJECT_DIR$/02-Arrays/AddElementInArray/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,16 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/08-Queues-Comparison/main">
-    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="play-with-data-structures" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/main/main.go" />
-      <package value="github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/main" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/04-Linked-List/01-Linked-List-Basics/main">
     <configuration name="go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/05-Array-Queue/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="play-with-data-structures" />
       <working_directory value="$PROJECT_DIR$" />
@@ -109,13 +101,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/04-Linked-List/01-Linked-List-Basics/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="play-with-data-structures" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/04-Linked-List/01-Linked-List-Basics/main/main.go" />
+      <package value="github.com/yangqinjiang/play-with-data-structures/04-Linked-List/01-Linked-List-Basics/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/04-Linked-List/01-Linked-List-Basics/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/08-Queues-Comparison/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/07-Implementation-of-Loop-Queue/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/06-Loop-Queue/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/05-Array-Queue/main" />
-        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/main" />
       </list>
     </recent_temporary>
   </component>
