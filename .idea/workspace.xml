@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ce9ec82-123e-472c-abf9-8987c9fbdd15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList/LinkedListQueue.go" beforeDir="false" afterPath="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList/LinkedListQueue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,9 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1Pzx5mgrXMpUsd3nmi8OFusAedm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -33,23 +35,23 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/05-Recursion/01-Linked-List-Problems-in-Leetcode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList" />
-      <recent name="$PROJECT_DIR$/04-Linked-List/06-Implement-Stack-in-LinkedList" />
-      <recent name="$PROJECT_DIR$/04-Linked-List/05-Remove-Element-in-LinkedList" />
-      <recent name="$PROJECT_DIR$/04-Linked-List/04-Query-and-Update-in-LinkedList" />
-      <recent name="$PROJECT_DIR$/04-Linked-List/03-DummyHead-in-LinkedList" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/04-Linked-List/01-Linked-List-Basics" />
       <recent name="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/main" />
       <recent name="$PROJECT_DIR$/02-Arrays/AddElementInArray/main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/05-Recursion/01-Linked-List-Problems-in-Leetcode" />
+      <recent name="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList" />
+      <recent name="$PROJECT_DIR$/04-Linked-List/06-Implement-Stack-in-LinkedList" />
+      <recent name="$PROJECT_DIR$/04-Linked-List/05-Remove-Element-in-LinkedList" />
+      <recent name="$PROJECT_DIR$/04-Linked-List/04-Query-and-Update-in-LinkedList" />
     </key>
   </component>
   <component name="RunDashboard">
