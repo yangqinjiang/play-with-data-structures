@@ -35,23 +35,23 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/05-Recursion/04-LinkedList-and-Recursion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/05-Recursion/06-Debug-Recursive-Solution" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/04-Linked-List/01-Linked-List-Basics" />
-      <recent name="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/main" />
-      <recent name="$PROJECT_DIR$/02-Arrays/AddElementInArray/main" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/05-Recursion/06-Debug-Recursive-Solution" />
       <recent name="$PROJECT_DIR$/05-Recursion/04-LinkedList-and-Recursion" />
       <recent name="$PROJECT_DIR$/05-Recursion/03-Recursion-Basics" />
       <recent name="$PROJECT_DIR$/05-Recursion/02-Test-Your-LinkedList-Solution" />
       <recent name="$PROJECT_DIR$/05-Recursion/01-Linked-List-Problems-in-Leetcode" />
-      <recent name="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04-Linked-List/01-Linked-List-Basics" />
+      <recent name="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/main" />
+      <recent name="$PROJECT_DIR$/02-Arrays/AddElementInArray/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,25 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/05-Recursion/02-Test-Your-LinkedList-Solution/main">
-    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/08-Queues-Comparison/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="play-with-data-structures" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/03-Stacks-and-Queues/08-Queues-Comparison/main/main.go" />
-      <package value="github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/08-Queues-Comparison/main" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/04-Linked-List/07-Implement-Queue-in-LinkedList/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="play-with-data-structures" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList/main/main.go" />
-      <package value="github.com/yangqinjiang/play-with-data-structures/04-Linked-List/07-Implement-Queue-in-LinkedList/main" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/05-Recursion/06-Debug-Recursive-Solution/main">
     <configuration name="go build github.com/yangqinjiang/play-with-data-structures/05-Recursion/02-Test-Your-LinkedList-Solution/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="play-with-data-structures" />
       <working_directory value="$PROJECT_DIR$" />
@@ -94,31 +76,49 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/05-Recursion/03-Recursion-Basics/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/05-Recursion/06-Debug-Recursive-Solution/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="play-with-data-structures" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/05-Recursion/03-Recursion-Basics/main/main.go" />
-      <package value="github.com/yangqinjiang/play-with-data-structures/05-Recursion/03-Recursion-Basics/main" />
+      <filePath value="$PROJECT_DIR$/05-Recursion/06-Debug-Recursive-Solution/main/main.go" />
+      <package value="github.com/yangqinjiang/play-with-data-structures/05-Recursion/06-Debug-Recursive-Solution/main" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/05-Recursion/04-LinkedList-and-Recursion/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="play-with-data-structures" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/05-Recursion/03-Recursion-Basics/main/main.go" />
+      <package value="github.com/yangqinjiang/play-with-data-structures" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="play-with-data-structures" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/05-Recursion/04-LinkedList-and-Recursion/main/main.go" />
-      <package value="github.com/yangqinjiang/play-with-data-structures/05-Recursion/04-LinkedList-and-Recursion/main" />
+      <package value="github.com/yangqinjiang/play-with-data-structures" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="play-with-data-structures" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/05-Recursion/02-Test-Your-LinkedList-Solution/main/main.go" />
+      <package value="github.com/yangqinjiang/play-with-data-structures" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/05-Recursion/06-Debug-Recursive-Solution/main" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/05-Recursion/02-Test-Your-LinkedList-Solution/main" />
-        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/05-Recursion/03-Recursion-Basics/main" />
-        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/05-Recursion/04-LinkedList-and-Recursion/main" />
-        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/04-Linked-List/07-Implement-Queue-in-LinkedList/main" />
-        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/03-Stacks-and-Queues/08-Queues-Comparison/main" />
       </list>
     </recent_temporary>
   </component>
