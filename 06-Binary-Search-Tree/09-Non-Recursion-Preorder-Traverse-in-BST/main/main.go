@@ -25,4 +25,7 @@ func main() {
 	bst.PreOrderNR()
 
 	//fmt.Println(bst.ToString())
+
+	//
+	//PreorderTraversal()
 }
