@@ -35,25 +35,25 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST" />
-      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/05-Search-in-BST" />
-      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/06-PreOrder-Traverse-in-BST" />
-      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/04-Improved-Add-Elements-in-BST" />
-      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/03-Add-Elements-in-BST" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/05-Search-in-BST/main" />
       <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/06-PreOrder-Traverse-in-BST/main" />
       <recent name="$PROJECT_DIR$/04-Linked-List/01-Linked-List-Basics" />
       <recent name="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/main" />
       <recent name="$PROJECT_DIR$/02-Arrays/AddElementInArray/main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST" />
+      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST" />
+      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/05-Search-in-BST" />
+      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/06-PreOrder-Traverse-in-BST" />
+      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/04-Improved-Add-Elements-in-BST" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -68,16 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST/main">
-    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/03-Add-Elements-in-BST/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="play-with-data-structures" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/06-Binary-Search-Tree/03-Add-Elements-in-BST/main/main.go" />
-      <package value="github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/03-Add-Elements-in-BST/main" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/main">
     <configuration name="go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/04-Improved-Add-Elements-in-BST/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="play-with-data-structures" />
       <working_directory value="$PROJECT_DIR$" />
@@ -114,13 +105,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="play-with-data-structures" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/main/main.go" />
+      <package value="github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/06-PreOrder-Traverse-in-BST/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/05-Search-in-BST/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/04-Improved-Add-Elements-in-BST/main" />
-        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/03-Add-Elements-in-BST/main" />
       </list>
     </recent_temporary>
   </component>
