@@ -91,7 +91,7 @@ func (this *BST)_preOrder(node *Node)  {
 	if nil == node{
 		return
 	}
-	fmt.Print(node.E)
+	fmt.Println(node.E)
 	this._preOrder(node.Left)
 	this._preOrder(node.Right)
 }

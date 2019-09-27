@@ -92,7 +92,7 @@ func (this *BST)_preOrder(node *Node)  {
 	if nil == node{
 		return
 	}
-	fmt.Print(node.E)
+	fmt.Println(node.E)
 	this._preOrder(node.Left)
 	this._preOrder(node.Right)
 }
@@ -106,7 +106,7 @@ func (this *BST)PreOrderNR()  {
 	stack.PushBack(this.root)
 	for stack.Len() > 0{
 		cur := stack.Remove(stack.Back()).(*Node)
-		fmt.Print(cur.E)
+		fmt.Println(cur.E)
 		//注意,先压入右子树
 		if nil != cur.Right{
 			stack.PushBack(cur.Right)
@@ -129,7 +129,7 @@ func (this *BST)_inOrder(node *Node)  {
 		return
 	}
 	this._inOrder(node.Left)
-	fmt.Print(node.E)
+	fmt.Println(node.E)
 	this._inOrder(node.Right)
 }
 //二分搜索树的后序遍历
@@ -144,7 +144,7 @@ func (this *BST)_postOrder(node *Node)  {
 	}
 	this._postOrder(node.Left)
 	this._postOrder(node.Right)
-	fmt.Print(node.E)
+	fmt.Println(node.E)
 }
 func (this *BST)ToString() string  {
 	var res strings.Builder

@@ -1,4 +1,4 @@
-package _10_Level_Traverse_in_BST
+package _11_Remove_Min_and_Max_in_BST
 
 
 import (
@@ -168,6 +168,80 @@ func (this *BST)LevelOrder()  {
 			queue.PushFront(cur.Right)//入队列
 		}
 	}
+}
+
+// 寻找二分搜索树的最小元素
+func (this *BST)Minimun() int  {
+	if 0 == this.size{
+		panic("BST is empty")
+	}
+	minNode := this._minimun(this.root)
+	return minNode.E
+}
+// 返回以node为根的二分搜索树的最小值所在的节点
+func (this *BST)_minimun(node *Node) *Node  {
+	//如果以node为根的左子树为空,则说明node是最小值
+	if nil == node.Left{
+		return node
+	}
+	//递归查询
+	return this._minimun(node.Left)
+}
+
+// 寻找二分搜索树的最大元素
+func (this *BST)Maximun() int  {
+	if 0 == this.size{
+		panic("BST is empty")
+	}
+	maxNode := this._maximun(this.root)
+	return maxNode.E
+}
+// 返回以node为根的二分搜索树的最大值所在的节点
+func (this *BST)_maximun(node *Node) *Node  {
+	//如果以node为根的右子树为空,则说明node是最大值
+	if nil == node.Right{
+		return node
+	}
+	//递归查询
+	return this._maximun(node.Right)
+}
+// 从二分搜索树中删除最小值所在节点, 返回最小值
+func (this *BST)RemoveMin() int  {
+	ret := this.Minimun()
+	this.root = this._removeMin(this.root)
+	return ret
+}
+// 删除掉以node为根的二分搜索树中的最小节点
+// 返回删除节点后新的二分搜索树的根
+func (this *BST)_removeMin(node *Node) *Node  {
+	//判断左子树
+	if nil == node.Left{
+		rightNode := node.Right
+		node.Right = nil
+		this.size --
+		return rightNode
+	}
+	node.Left = this._removeMin(node.Left)
+	return node
+}
+// 从二分搜索树中删除最大值所在节点
+func (this *BST)RemoveMax() int  {
+	ret := this.Maximun()
+	this.root = this._removeMax(this.root)
+	return ret
+}
+// 删除掉以node为根的二分搜索树中的最大节点
+// 返回删除节点后新的二分搜索树的根
+func (this *BST)_removeMax(node *Node) *Node  {
+	//判断右子树
+	if nil == node.Right{
+		leftNode := node.Left
+		node.Left = nil
+		this.size --
+		return leftNode
+	}
+	node.Right = this._removeMax(node.Right)
+	return node
 }
 func (this *BST)ToString() string  {
 	var res strings.Builder
