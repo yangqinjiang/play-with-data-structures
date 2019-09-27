@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6ce9ec82-123e-472c-abf9-8987c9fbdd15" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-Binary-Search-Tree/03-Add-Elements-in-BST/BST.go" beforeDir="false" afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/03-Add-Elements-in-BST/BST.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-Binary-Search-Tree/03-Add-Elements-in-BST/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/03-Add-Elements-in-BST/main/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

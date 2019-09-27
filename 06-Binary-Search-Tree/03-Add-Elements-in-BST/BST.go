@@ -1,4 +1,5 @@
 package _3_Add_Elements_in_BST
+
 // 树结点
 type Node struct {
 	E int
@@ -68,8 +69,6 @@ func (this *BST)_Add(node *Node,e int)  {
 		this._Add(node.Right,e)
 	}
 }
-
-
 
 
 
