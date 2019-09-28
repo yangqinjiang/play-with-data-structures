@@ -276,7 +276,7 @@ func (this *BST)_remove(node *Node,e int) *Node  {
 			this.size --
 			return leftNode
 		}
-
+		//查找后继节点,顶替 [删除的元素]
 		//待删除节点 左右子树均不为空的情况
 		//找到比待删除节点 大的最小节点,即待删除节点右子树的最小节点
 		//用这个节点顶替待删除节点的位置
