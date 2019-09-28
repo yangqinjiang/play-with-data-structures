@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6ce9ec82-123e-472c-abf9-8987c9fbdd15" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Binary-Search-Tree/06-PreOrder-Traverse-in-BST/BST.go" beforeDir="false" afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/06-PreOrder-Traverse-in-BST/BST.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST/BST.go" beforeDir="false" afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST/BST.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/BST.go" beforeDir="false" afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/BST.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Binary-Search-Tree/10-Level-Traverse-in-BST/BST.go" beforeDir="false" afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/10-Level-Traverse-in-BST/BST.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,18 +35,18 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-Binary-Search-Tree/11-Remove-Min-and-Max-in-BST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-Binary-Search-Tree/12-Remove-Elements-in-BST" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/12-Remove-Elements-in-BST" />
       <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/11-Remove-Min-and-Max-in-BST" />
       <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/10-Level-Traverse-in-BST" />
       <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST" />
       <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST" />
-      <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/05-Search-in-BST" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/06-Binary-Search-Tree/05-Search-in-BST/main" />
@@ -72,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/11-Remove-Min-and-Max-in-BST/main">
+  <component name="RunManager" selected="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/12-Remove-Elements-in-BST/main">
     <configuration name="go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/06-PreOrder-Traverse-in-BST/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="play-with-data-structures" />
       <working_directory value="$PROJECT_DIR$" />
@@ -100,15 +96,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/10-Level-Traverse-in-BST/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="play-with-data-structures" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/06-Binary-Search-Tree/10-Level-Traverse-in-BST/main/main.go" />
-      <package value="github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/10-Level-Traverse-in-BST/main" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/11-Remove-Min-and-Max-in-BST/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="play-with-data-structures" />
       <working_directory value="$PROJECT_DIR$" />
@@ -118,13 +105,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/12-Remove-Elements-in-BST/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="play-with-data-structures" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/06-Binary-Search-Tree/12-Remove-Elements-in-BST/main/main.go" />
+      <package value="github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/12-Remove-Elements-in-BST/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/12-Remove-Elements-in-BST/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/11-Remove-Min-and-Max-in-BST/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/06-PreOrder-Traverse-in-BST/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST/main" />
         <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/main" />
-        <item itemvalue="Go Build.go build github.com/yangqinjiang/play-with-data-structures/06-Binary-Search-Tree/10-Level-Traverse-in-BST/main" />
       </list>
     </recent_temporary>
   </component>
