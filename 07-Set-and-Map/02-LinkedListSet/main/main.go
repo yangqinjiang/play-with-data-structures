@@ -7,19 +7,19 @@ import (
 	"github.com/yangqinjiang/play-with-data-structures/Utils/FileOperation"
 	"path/filepath"
 )
-//读取文件的文本内容,添加到BST set集合内,并且统计不同的单词数量
+//读取文件的文本内容,添加到BST/LinkedList set集合内,并且统计不同的单词数量
 func main() {
 
 	//
 	fmt.Println("测试基于BST的集合,统计不同的单词数量")
-	readFileAndTotalDifferentWords("07-Set-and-Map/01-Set-Basics-and-BSTSet/pride-and-prejudice.txt",_2_Linked_List_Set.NewBSTSet())
+	readFileAndTotalDifferentWords("07-Set-and-Map/02-LinkedListSet/pride-and-prejudice.txt",_2_Linked_List_Set.NewBSTSet())
 	fmt.Println("----------------------")
-	readFileAndTotalDifferentWords("07-Set-and-Map/01-Set-Basics-and-BSTSet/a-tale-of-two-cities.txt",_2_Linked_List_Set.NewBSTSet())
+	readFileAndTotalDifferentWords("07-Set-and-Map/02-LinkedListSet/a-tale-of-two-cities.txt",_2_Linked_List_Set.NewBSTSet())
 	fmt.Println("----------------------")
 	fmt.Println("测试基于LinkedList的集合,统计不同的单词数量")
-	readFileAndTotalDifferentWords("07-Set-and-Map/01-Set-Basics-and-BSTSet/pride-and-prejudice.txt",_2_Linked_List_Set.NewLinkedListSet())
+	readFileAndTotalDifferentWords("07-Set-and-Map/02-LinkedListSet/pride-and-prejudice.txt",_2_Linked_List_Set.NewLinkedListSet())
 	fmt.Println("----------------------")
-	readFileAndTotalDifferentWords("07-Set-and-Map/01-Set-Basics-and-BSTSet/a-tale-of-two-cities.txt",_2_Linked_List_Set.NewLinkedListSet())
+	readFileAndTotalDifferentWords("07-Set-and-Map/02-LinkedListSet/a-tale-of-two-cities.txt",_2_Linked_List_Set.NewLinkedListSet())
 
 }
 
