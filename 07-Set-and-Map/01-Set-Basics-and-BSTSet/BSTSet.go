@@ -3,7 +3,7 @@ package _1_Set_Basics_and_BSTSet
 集合类, 实现Set接口的BST
  */
 type BSTSet struct {
-	bst *BST
+	bst *BST  //这个BST的元素是string类型
 }
 
 func NewBSTSet() *BSTSet  {

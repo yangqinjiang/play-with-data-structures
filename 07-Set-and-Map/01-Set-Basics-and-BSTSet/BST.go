@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 //TODO:Node的E属性,应该实现泛型
+//这个BST的元素是string类型
 // 树结点
 type Node struct {
 	E string
