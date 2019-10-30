@@ -1,20 +1,18 @@
 package _1_Set_Basics_and_BSTSet
 
-
 import (
 	"container/list"
 	"fmt"
-	"strconv"
 	"strings"
 )
 //TODO:Node的E属性,应该实现泛型
 // 树结点
 type Node struct {
-	E int
+	E string
 	Left,Right *Node
 }
 
-func NewNode(e int) *Node  {
+func NewNode(e string) *Node  {
 	return &Node{
 		E:e,
 		Left:nil,
@@ -44,13 +42,13 @@ func (this *BST)IsEmpty() bool {
 }
 //优化
 //向二分搜索树中添加新的元素e
-func (this *BST)Add(e int)  {
+func (this *BST)Add(e string)  {
 	this.root = this._Add(this.root,e)
 }
 //优化
 // 向以node为根的二分搜索树中插入元素e，递归算法
 // 返回插入新节点后二分搜索树的根
-func (this *BST)_Add(node *Node,e int) *Node  {
+func (this *BST)_Add(node *Node,e string) *Node  {
 	if nil == node{
 		this.size ++
 		return &Node{E:e}
@@ -66,11 +64,11 @@ func (this *BST)_Add(node *Node,e int) *Node  {
 	return  node
 }
 // 看二分搜树中是否包含元素e
-func (this *BST)Contains(e int) bool {
+func (this *BST)Contains(e string) bool {
 	return this._contains(this.root,e)
 }
 // 看以node为根的二分搜索树中是否包含元素e, 递归算法
-func (this *BST)_contains(node *Node,e int) bool {
+func (this *BST)_contains(node *Node,e string) bool {
 
 	if nil == node{//查找不到
 		return false
@@ -171,7 +169,7 @@ func (this *BST)LevelOrder()  {
 }
 
 // 寻找二分搜索树的最小元素
-func (this *BST)Minimun() int  {
+func (this *BST)Minimun() string  {
 	if 0 == this.size{
 		panic("BST is empty")
 	}
@@ -189,7 +187,7 @@ func (this *BST)_minimun(node *Node) *Node  {
 }
 
 // 寻找二分搜索树的最大元素
-func (this *BST)Maximun() int  {
+func (this *BST)Maximun() string  {
 	if 0 == this.size{
 		panic("BST is empty")
 	}
@@ -206,7 +204,7 @@ func (this *BST)_maximun(node *Node) *Node  {
 	return this._maximun(node.Right)
 }
 // 从二分搜索树中删除最小值所在节点, 返回最小值
-func (this *BST)RemoveMin() int  {
+func (this *BST)RemoveMin() string  {
 	ret := this.Minimun()
 	this.root = this._removeMin(this.root)
 	return ret
@@ -225,7 +223,7 @@ func (this *BST)_removeMin(node *Node) *Node  {
 	return node
 }
 // 从二分搜索树中删除最大值所在节点
-func (this *BST)RemoveMax() int  {
+func (this *BST)RemoveMax() string  {
 	ret := this.Maximun()
 	this.root = this._removeMax(this.root)
 	return ret
@@ -246,12 +244,12 @@ func (this *BST)_removeMax(node *Node) *Node  {
 
 //使用后继节点的方式,删除任意元素
 //从二分搜索树中删除元素为e的节点
-func (this *BST)Remove(e int)  {
+func (this *BST)Remove(e string)  {
 	this.root = this._remove(this.root,e)
 }
 //删除掉以node为根的二分搜索树中,值为e的节点,递归算法
 // 返回删除节点后,新的二分搜索树的根
-func (this *BST)_remove(node *Node,e int) *Node  {
+func (this *BST)_remove(node *Node,e string) *Node  {
 	if nil == node{
 		return nil
 	}
@@ -301,7 +299,7 @@ func (this *BST)generateBSTString(node *Node,depth int,res *strings.Builder)  {
 		res.WriteString(generateDepthString(depth) + "null\n")
 		return
 	}
-	res.WriteString(generateDepthString(depth) + strconv.Itoa(node.E) + "\n")
+	res.WriteString(generateDepthString(depth) + node.E + "\n")
 	this.generateBSTString(node.Left,depth+1,res)
 	this.generateBSTString(node.Right,depth+1,res)
 }
