@@ -1,6 +1,6 @@
-package _5_Array_Queue
+package _6_Priority_Queue
 
-//Queue接口,不支持泛型
+//
 type Queue  interface{
 	GetSize() int
 	IsEmpty() bool
