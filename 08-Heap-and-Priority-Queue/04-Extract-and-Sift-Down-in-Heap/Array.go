@@ -1,4 +1,4 @@
-package _3_add_and_sift_up_in_heap
+package _4_Extract_and_Sift_Down_in_Heap
 
 import (
 	"fmt"
