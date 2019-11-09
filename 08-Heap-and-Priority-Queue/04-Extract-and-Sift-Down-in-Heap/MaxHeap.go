@@ -74,6 +74,7 @@ func (this *MaxHeap)siftDown(k int){
 		if j+ 1 < this.data.GetSize() && this.data.Get(j+1) > this.data.Get(j){
 			j = this.rightChild(k)
 		}
+		// data[j] 是 leftChild 和 rightChild 中的最大值
 
 		//如果父节点的值,比子节点的值 更大, 则不需要交换
 		if this.data.Get(k) > this.data.Get(j){
