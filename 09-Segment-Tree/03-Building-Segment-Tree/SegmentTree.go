@@ -38,7 +38,7 @@ func NewSegmentTree(arr []int,merger Merger) *SegmentTree  {
 func (this *SegmentTree)buildSegmentTree(treeIndex,l,r int)  {
 	//递归终止条件
 	if l==r{
-		fmt.Println("l==r",l,r," ,len(tree) = ", len(this.tree))
+		fmt.Println("l==r",l,r," ,treeIndex=",treeIndex, " , get data[",l,"]=",this.data[l]," , return")
 		this.tree[treeIndex] = this.data[l]
 		return
 	}
@@ -54,6 +54,7 @@ func (this *SegmentTree)buildSegmentTree(treeIndex,l,r int)  {
 	this.buildSegmentTree(rightTreeIndex,mid+1,r)
 
 	this.tree[treeIndex] = this.merger.Merge(this.tree[leftTreeIndex],this.tree[rightTreeIndex])
+	fmt.Println("merger: leftTreeIndex +rightTreeIndex =",this.tree[leftTreeIndex] ," + ",this.tree[rightTreeIndex],"=",this.tree[treeIndex])
 }
 //读取data的长度
 func (this *SegmentTree)GetSize() int  {
@@ -82,7 +83,10 @@ func (this *SegmentTree)ToString() string  {
 	sb.WriteString("[")
 	for i := 0;i< len(this.tree);i++  {
 		if 0 != this.tree[i]{
-			fmt.Fprintf(&sb,"%d",this.tree[i])
+			_,err := fmt.Fprintf(&sb,"%d",this.tree[i])
+			if nil != err{
+				panic(err)
+			}
 		}else {
 			sb.WriteString("nil")
 		}
