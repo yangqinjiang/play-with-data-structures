@@ -2,37 +2,28 @@ package main
 
 import (
 	"fmt"
-	. "github.com/yangqinjiang/play-with-data-structures/10-Trie/05-Trie-and-Pattern-Match"
+	. "github.com/yangqinjiang/play-with-data-structures/10-Trie/06-Trie-and-Map"
 )
+/**
+输入: insert("apple", 3), 输出: Null
+输入: sum("ap"), 输出: 3
+输入: insert("app", 2), 输出: Null
+输入: sum("ap"), 输出: 5
 
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/map-sum-pairs
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ */
 func main() {
 	fmt.Println("Trie...")
 	trie:= Constructor()
-	trie.AddWord("HELLO中方")
-	trie.AddWord("HI")
-	trie.AddWord("World")
-	trie.AddWord("World") //重复的单词
-	if 3 != trie.GetSize(){
-		panic("单词个数不一致")
+	trie.Insert("apple",3)
+	if 3 != trie.Sum("ap"){
+		panic("应该是3")
 	}
-
-	if false == trie.Search("H."){
-		panic("应该存在 H. 的单词")
-	}
-	if false == trie.Search("HELLO.."){
-		panic("应该存在 HELLO.. 的单词")
-	}
-	if false == trie.Search("....d"){
-		panic("应该存在 ....d 的单词")
-	}
-	if true == trie.Search(".d"){
-		panic("不应该存在 .d 的单词")
-	}
-	if false == trie.Search(".....中方"){
-		panic("应该存在 .....中方 的单词")
-	}
-	if false == trie.Search("H....中方"){
-		panic("应该存在 H....中方 的单词")
+	trie.Insert("app",2)
+	if 5 != trie.Sum("ap"){
+		panic("应该是5")
 	}
 	fmt.Println("OK")
 }
