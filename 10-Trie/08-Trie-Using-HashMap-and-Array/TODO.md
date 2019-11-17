@@ -1,0 +1,1 @@
+1, 使用数组保存 node.next `public Node[] next;`
