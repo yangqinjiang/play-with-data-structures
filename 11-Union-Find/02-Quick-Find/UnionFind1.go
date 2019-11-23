@@ -9,7 +9,7 @@ func NewUnionFind1(size int) *UnionFind1  {
 	id := make([]int,size)
 	//初始化,每一个id[i]指向自己,没有合并的元素
 	for i:=0;i<size ;i++  {
-		id = append(id, i)
+		id[i] = i
 	}
 	return &UnionFind1{id:id}
 }
