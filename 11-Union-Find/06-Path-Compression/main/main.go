@@ -2,25 +2,28 @@ package main
 
 import (
 	"fmt"
-	. "github.com/yangqinjiang/play-with-data-structures/11-Union-Find/05-Optimized-by-Rank"
+	. "github.com/yangqinjiang/play-with-data-structures/11-Union-Find/06-Path-Compression"
 	"math/rand"
 	"time"
 )
 
 func main() {
 
-	// 比较 uf3 和uf4
+	// 比较 uf3 和uf4, uf5
 	size := 10000000
 	m := 10000000
-	fmt.Printf("------------------test uf3,uf4 size:=%d , m:=%d ------------------\n",size,m)
+	fmt.Printf("------------------test uf3,uf4,tf5, size:=%d , m:=%d ------------------\n",size,m)
 	uf3 :=  NewUnionFind3(size)
 	fmt.Printf("UF3 : %f s ,optimized by Size.\n",testUF(uf3,m))
 	uf4 :=  NewUnionFind4(size)
 	fmt.Printf("UF4 : %f s ,optimized by Rank.\n",testUF(uf4,m))
+	uf5 :=  NewUnionFind5(size)
+	fmt.Printf("UF5 : %f s ,path compression .\n",testUF(uf5,m))
 }
-//------------------test uf3,uf4 size:=10000000 , m:=10000000 ------------------
-//UF3 : 6.712790 s ,optimized by Size.
-//UF4 : 6.831348 s ,optimized by Rank.
+//------------------test uf3,uf4,tf5, size:=10000000 , m:=10000000 ------------------
+//UF3 : 6.468004 s ,optimized by Size.
+//UF4 : 6.861415 s ,optimized by Rank.
+//UF5 : 4.876139 s ,path compression .
 
 
 
