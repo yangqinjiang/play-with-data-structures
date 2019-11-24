@@ -41,7 +41,7 @@ func main() {
 	fmt.Println("uf1 is OK")
 
 	fmt.Println("------------------test uf2 ------------------")
-	uf2 := _3_Quick_Union.NewUnionFind1(6)
+	uf2 := _3_Quick_Union.NewUnionFind2(6)
 	uf2.UnionElements(0,1)
 	uf2.UnionElements(2,3)
 	uf2.UnionElements(4,5)
