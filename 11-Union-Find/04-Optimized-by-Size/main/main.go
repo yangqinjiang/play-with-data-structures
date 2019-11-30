@@ -22,6 +22,22 @@ func main() {
 	fmt.Printf("UF2 : %f s ,Parent\n",testUF(uf2,m))
 	uf3 :=  NewUnionFind3(size)
 	fmt.Printf("UF3 : %f s ,optimized by Size.\n",testUF(uf3,m))
+
+	//
+	fmt.Println("-----------------------")
+	M := [][]int{{1,1,0},
+	{1,1,0},
+	{0,0,1}}
+	if 2 != FindCircleNum(M){
+		panic("should be 2")
+	}
+	fmt.Println("-----------------------")
+	M = [][]int{{1,1,0},
+		{1,1,1},
+		{0,1,1}}
+	if 1 != FindCircleNum(M){
+		panic("should be 1")
+	}
 }
 
 func testUF(uf UF,m int) float64{
