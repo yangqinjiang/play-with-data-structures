@@ -1,15 +1,10 @@
-package _7_Implementation_of_Loop_Queue
+package _6_loop_queue
 
 import (
 	"fmt"
 	"strings"
 )
 
-
-import (
-	"fmt"
-	"strings"
-)
 
 type Array struct {
 	data []int
