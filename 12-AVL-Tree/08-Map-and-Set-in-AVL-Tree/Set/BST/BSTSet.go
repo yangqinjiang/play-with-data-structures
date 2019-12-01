@@ -1,16 +1,16 @@
 package Set
 import (
-	Map "github.com/yangqinjiang/play-with-data-structures/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/Map/BST"
+	BSTMap "github.com/yangqinjiang/play-with-data-structures/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/Map/BST"
 )
 /**
 集合类, 实现Set接口的BST
  */
 type BSTSet struct {
-	bst *Map.BSTMap //这个BST的元素是string类型
+	bst *BSTMap.BSTMap //使用BSTMap作为BSTSet的底层实现
 }
 
 func NewBSTSet() *BSTSet  {
-	return &BSTSet{bst: Map.NewBSTMap()}
+	return &BSTSet{bst: BSTMap.NewBSTMap()}
 }
 //添加元素到集合内
 func (this *BSTSet)Add(e string)  {
