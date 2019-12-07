@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/yangqinjiang/play-with-data-structures/13-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/AVLTree"
-	. "github.com/yangqinjiang/play-with-data-structures/13-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/BST"
-	"github.com/yangqinjiang/play-with-data-structures/13-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/RBTree"
+	"github.com/yangqinjiang/play-with-data-structures/13-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/AVLTree"
+	. "github.com/yangqinjiang/play-with-data-structures/13-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/BST"
+	"github.com/yangqinjiang/play-with-data-structures/13-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/RBTree"
 	"github.com/yangqinjiang/play-with-data-structures/Utils/FileOperation"
 	"path/filepath"
 	"sort"
@@ -13,7 +13,7 @@ import (
 
 
 func main() {
-	filename := "13-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/pride-and-prejudice.txt"
+	filename := "13-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/pride-and-prejudice.txt"
 
 	fmt.Printf("Read File: %s ....\n",filename)
 
@@ -23,7 +23,7 @@ func main() {
 		return
 	}
 	fmt.Println("Total words: ",len(words1))
-	if true{
+	if !true{
 		sort.Strings(words1)
 		fmt.Println("将words排序一下,AVLTree比BST快")
 	}
@@ -69,7 +69,6 @@ func main() {
 	//记录结束时间
 	elapsed = time.Since(startTime)
 	fmt.Printf("AVL: Frequency of PRIDE: %d , took: %f s \n" , avl.Get("pride"),elapsed.Seconds())
-
 	//------------------
 	startTime = time.Now()
 	rbTree :=  RBTree.NewRBTree()
@@ -89,5 +88,6 @@ func main() {
 	//记录结束时间
 	elapsed = time.Since(startTime)
 	fmt.Printf("RBTree: Frequency of PRIDE: %d , took: %f s \n" , rbTree.Get("pride"),elapsed.Seconds())
+
 }
 

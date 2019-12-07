@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/yangqinjiang/play-with-data-structures/13-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/AVLTree"
 	. "github.com/yangqinjiang/play-with-data-structures/13-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/BST"
+	"github.com/yangqinjiang/play-with-data-structures/13-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/RBTree"
 	"github.com/yangqinjiang/play-with-data-structures/Utils/FileOperation"
 	"path/filepath"
 	"sort"
@@ -68,5 +69,24 @@ func main() {
 	//记录结束时间
 	elapsed = time.Since(startTime)
 	fmt.Printf("AVL: Frequency of PRIDE: %d , took: %f s \n" , avl.Get("pride"),elapsed.Seconds())
+	//------------------
+	startTime = time.Now()
+	rbTree :=  RBTree.NewRBTree()
+	for _,word := range words1 {
+		if rbTree.Contains(word){ //存在,则更新 + 1
+			rbTree.Set(word,rbTree.Get(word) + 1)
+		}else{ 					//不存在,则设置 1
+			rbTree.Add(word,1)
+		}
+
+	}
+	//再查询一次
+	for _,word := range words1 {
+		rbTree.Contains(word)
+	}
+
+	//记录结束时间
+	elapsed = time.Since(startTime)
+	fmt.Printf("RBTree: Frequency of PRIDE: %d , took: %f s \n" , rbTree.Get("pride"),elapsed.Seconds())
 }
 
