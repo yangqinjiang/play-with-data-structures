@@ -72,7 +72,31 @@ func (this *RBTree)leftRotate(node *Node) *Node  {
 
 	return x
 }
+//     node                   x
+//    /   \     右旋转       /  \
+//   x    T2   ------->   y   node
+//  / \                       /  \
+// y  T1                     T1  T2
+func (this *RBTree)rightRotate(node *Node) *Node  {
+	x := node.Left
 
+	//右旋转
+	node.Left = x.Right
+	x.Right = node
+
+	//颜色
+	x.Color = node.Color
+	node.Color = RED
+
+	return x
+}
+
+//颜色翻转
+func (this *RBTree)flipColors(node *Node)  {
+	node.Color = RED
+	node.Left.Color = BLACK
+	node.Left.Color = BLACK
+}
 // 向红黑树中添加新的元素(key,value)
 func (this *RBTree)Add(key string,value int)  {
 	this.root = this._Add(this.root,key,value)
@@ -94,6 +118,19 @@ func (this *RBTree)_Add(node *Node,key string,value int) *Node  {
 	}else{//相等,更新value值
 		node.Value = value
 	}
+	//右节点为红色, 左节点不是红色
+	if this.isRed(node.Right) && !this.isRed(node.Left){
+		node = this.leftRotate(node)
+	}
+	//左节点为红色, 左左节点也是红色
+	if this.isRed(node.Left) && this.isRed(node.Left.Left){
+		node = this.rightRotate(node)
+	}
+	//左右节点都是红色
+	if this.isRed(node.Left) && this.isRed(node.Right){
+		this.flipColors(node)
+	}
+
 	return  node
 }
 //返回以node为根节点的红黑树中,key所在的节点, 递归算法
@@ -204,6 +241,7 @@ func (this *RBTree)_removeMax(node *Node) *Node  {
 	node.Right = this._removeMax(node.Right)
 	return node
 }
+
 //使用后继节点的方式,删除任意元素
 //接口:从红黑树中删除元素为e的节点
 func (this *RBTree)Remove(key string) int {

@@ -186,57 +186,10 @@ func (this *RBTree)_removeMax(node *Node) *Node  {
 	node.Right = this._removeMax(node.Right)
 	return node
 }
-
 //使用后继节点的方式,删除任意元素
 //接口:从红黑树中删除元素为e的节点
 func (this *RBTree)Remove(key string) int {
-	node := this.getNode(this.root,key)
-	if node != nil{
-		this.root = this._remove(this.root,key)
-		return node.Value
-	}
-	return 0
-}
-//删除掉以node为根的红黑树中,值为e的节点,递归算法
-// 返回删除节点后,新的红黑树的根
-func (this *RBTree)_remove(node *Node,key string) *Node  {
-	if nil == node{
-		return nil
-	}
-	if key < node.Key{ //从左子树查询,删除
-		node.Left = this._remove(node.Left,key)
-		return node
-	}else if key > node.Key{//从右子树查询,删除
-		node.Right = this._remove(node.Right,key)
-		return node
-	}else{ // e == node.E
-		//待删除节点左子树为空的情况
-		if nil == node.Left{
-			rightNode := node.Right
-			node.Right = nil //删除右子树的引用
-			this.size --
-			return rightNode
-		}
-		//待删除节点右子树为空的情况
-		if nil == node.Right{
-			leftNode := node.Left
-			node.Left = nil //删除左子树的引用
-			this.size --
-			return leftNode
-		}
-		//查找后继节点,顶替 [删除的元素]
-		//待删除节点 左右子树均不为空的情况
-		//找到比待删除节点 大的最小节点,即待删除节点右子树的最小节点
-		//用这个节点顶替待删除节点的位置
-		successor := this._minimun(node.Right)
-		successor.Right = this._removeMin(node.Right)
-		successor.Left = node.Left
-
-		//删除 [待删除节点]的左右子树引用
-		node.Left = nil
-		node.Right = nil
-		return  successor //返回后继节点
-	}
+	panic("No remove in RBTree!")
 }
 func (this *RBTree)ToString() string  {
 	var res strings.Builder
