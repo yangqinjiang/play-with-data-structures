@@ -16,7 +16,7 @@ import (
 
 func main()  {
 	//main1()
-	//main2()
+	main2()
 	main3()
 }
 
@@ -109,7 +109,7 @@ func main2()  {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	testData := make([]string,n)
 	for i:=0;i<n ;i++  {
-		testData[i] = string(r.Intn(math.MaxInt32))
+		testData = append(testData, string(r.Intn(math.MaxInt32)))
 	}
 	//Test BST
 	startTime := time.Now()
@@ -149,7 +149,7 @@ func main3()  {
 	n := 20000000
 	testData := make([]string,n)
 	for i:=0;i<n ;i++  {
-		testData[i] = strconv.Itoa(i)
+		testData = append(testData, strconv.Itoa(i))
 	}
 	//不测试BST, 因为它退化成了链表
 
@@ -163,7 +163,7 @@ func main3()  {
 	elapsed := time.Since(startTime)
 	fmt.Printf("AVL:  took: %f s \n" ,  elapsed.Seconds())
 
-	//Test AVL
+	//Test RBTree
 	startTime  = time.Now()
 	rbt := RBTree.NewRBTree()
 	for _,x := range testData {
