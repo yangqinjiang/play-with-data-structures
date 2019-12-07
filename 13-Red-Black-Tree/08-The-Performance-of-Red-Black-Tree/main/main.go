@@ -142,7 +142,8 @@ func main2()  {
 	fmt.Printf("RBTree:  took: %f s \n" ,  elapsed.Seconds())
 }
 
-//测试顺序数,在教程视频的耗时: RBTree < AVLTree, 实际是 AVLTree < RBTree
+//测试顺序数,在教程视频的耗时: RBTree < AVLTree,
+// TODO: 实际是 AVLTree < RBTree
 func main3()  {
 	fmt.Println("main3")
 	n := 20000000
