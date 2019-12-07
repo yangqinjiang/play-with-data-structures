@@ -60,7 +60,7 @@ func (this *RBTree)isRed(node *Node) bool  {
 //     / \              /   \
 //    T2 T3            T1   T2
 func (this *RBTree)leftRotate(node *Node) *Node  {
-	x := node.Left
+	x := node.Right
 
 	//左旋转
 	node.Right = x.Left
