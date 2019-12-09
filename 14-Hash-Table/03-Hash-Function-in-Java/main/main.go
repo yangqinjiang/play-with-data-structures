@@ -14,8 +14,8 @@ func main(){
 
 	another_stu := Student.NewStudent(3,2,"Yang","qinjiang")
 	fmt.Println(another_stu.HashCode())
-	if stu.Equals(*another_stu){
-		fmt.Println("stu equals another_stu")
+	if !stu.Equals(*another_stu){
+		panic("stu should be equals another_stu")
 	}
 	//todo: set
 

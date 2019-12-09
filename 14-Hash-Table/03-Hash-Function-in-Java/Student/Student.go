@@ -23,7 +23,12 @@ func (this *Student)HashCode() int{
 	return hash
 }
 func (this *Student)Equals(another Student) bool{
-	
+	if this == &another{
+		return true
+	}
+	if nil == &another {
+		return false
+	}
 	return this.grade == another.grade &&
 	this.cls == another.cls &&
 	this.firstName == another.firstName &&
