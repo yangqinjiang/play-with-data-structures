@@ -2,12 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/yangqinjiang/play-with-data-structures/14-Hash-Table/05-Hash-Table-Implementation/HashTable"
-	"github.com/yangqinjiang/play-with-data-structures/14-Hash-Table/05-Hash-Table-Implementation/AVLTree"
-	. "github.com/yangqinjiang/play-with-data-structures/14-Hash-Table/05-Hash-Table-Implementation/BST"
-	"github.com/yangqinjiang/play-with-data-structures/14-Hash-Table/05-Hash-Table-Implementation/RBTree"
+	"github.com/yangqinjiang/play-with-data-structures/14-Hash-Table/06-Resizing-in-Hash-Table/HashTable"
+	"github.com/yangqinjiang/play-with-data-structures/14-Hash-Table/06-Resizing-in-Hash-Table/AVLTree"
+	. "github.com/yangqinjiang/play-with-data-structures/14-Hash-Table/06-Resizing-in-Hash-Table/BST"
+	"github.com/yangqinjiang/play-with-data-structures/14-Hash-Table/06-Resizing-in-Hash-Table/RBTree"
 	"github.com/yangqinjiang/play-with-data-structures/Utils/FileOperation"
-
 	"path/filepath"
 	"sort"
 	"time"
@@ -20,7 +19,7 @@ func main()  {
 //测试文本
 func main1() {
 	fmt.Println("main1")
-	filename := "14-Hash-Table/05-Hash-Table-Implementation/pride-and-prejudice.txt"
+	filename := "14-Hash-Table/06-Resizing-in-Hash-Table/pride-and-prejudice.txt"
 
 	fmt.Printf("Read File: %s ....\n",filename)
 
@@ -30,7 +29,7 @@ func main1() {
 		return
 	}
 	fmt.Println("Total words: ",len(words1))
-	if true{
+	if !true{
 		sort.Strings(words1)
 		fmt.Println("将words排序一下,AVLTree比BST快")
 	}
@@ -104,8 +103,7 @@ func main1() {
 
 	//------------------
 	startTime = time.Now()
-	// hashtable :=  HashTable.NewHashTable2()
-	hashtable :=  HashTable.NewHashTable(131071)
+	 hashtable :=  HashTable.NewHashTable2()
 	for _,word := range words1 {
 		if hashtable.Contains(word){ //存在,则更新 + 1
 			hashtable.Set(word,hashtable.Get(word) + 1)
@@ -120,6 +118,11 @@ func main1() {
 			panic("hashTable should be contain "+word+" ,error")
 		}
 	}
+	// for _,word := range words1 {
+	// 	if hashtable.Remove(word) < 0{
+	// 		panic("hashTable Remove,should be return value gt 0 ,error")
+	// 	}
+	// }
 
 	//记录结束时间
 	elapsed = time.Since(startTime)
