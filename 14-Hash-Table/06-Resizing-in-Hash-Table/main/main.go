@@ -10,9 +10,11 @@ import (
 	"path/filepath"
 	"sort"
 	"time"
+	"github.com/yangqinjiang/play-with-data-structures/14-Hash-Table/06-Resizing-in-Hash-Table"
 )
 
 func main()  {
+	testIntersect()
 	main1()
 }
 
@@ -129,4 +131,33 @@ func main1() {
 	fmt.Printf("HashTable: Frequency of PRIDE: %d , took: %f s \n" , hashtable.Get("pride"),elapsed.Seconds())
 }
 
+func testIntersect(){
+	fmt.Println("test Intersect:Leetcode 350")
+	nums1 := []int{1,2,2,1}
+	nums2 := []int{2,2}
+	res := _6_resizeing_in_hash_table.Intersect(nums1,nums2)
+	fmt.Println(res)
+	if len(res) != 2{
+		panic("len isnot 1")
+	}
+	if res[0] != 2{
+		panic("index 0 isnot 2")
+	}
+	fmt.Println("-----OK--------")
+
+	nums1 = []int{4,9,5}
+	nums2 = []int{9,4,9,8,4}
+	res = _6_resizeing_in_hash_table.Intersect(nums1,nums2)
+	fmt.Println(res)
+	if len(res) != 2{
+		panic("len isnot 2")
+	}
+	if res[0] != 9{
+		panic("index 0 isnot 9")
+	}
+	if res[1] != 4{
+		panic("index 0 isnot 4")
+	}
+	fmt.Println("-----OK--------")
+}
 
