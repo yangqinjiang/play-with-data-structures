@@ -7,6 +7,9 @@ type MaxHeap struct {
 func NewMaxHeap() *MaxHeap  {
 	return &MaxHeap{data: NewArrayDefault()}
 }
+func NewMaxHeapByCapacity(capacity int) *MaxHeap  {
+	return &MaxHeap{data: NewArray(capacity)}
+}
 //按整个数组,初始化data, 并从parent(arr.len)开始 siftDown
 func NewMaxHeapWithArray(arr []int) *MaxHeap  {
 	mh := &MaxHeap{data: NewArrayWithData(arr)}

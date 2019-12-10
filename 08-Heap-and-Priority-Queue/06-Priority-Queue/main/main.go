@@ -33,7 +33,7 @@ func testHeap(testData []int,isHeapify bool)  float64{
 	 	//全部添加,再siftDown
 	 	mh = NewMaxHeapWithArray(testData)
 	 }else{
-	 	mh = NewMaxHeap()
+		mh = NewMaxHeapByCapacity(len(testData))
 	 	//一个一个添加
 	 	for _,num := range testData{
 			mh.Add(num)
